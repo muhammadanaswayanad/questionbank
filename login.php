@@ -31,9 +31,9 @@ if($db)
       <p class="message">Already registered? <a href="#">Sign In</a></p>
     </form>
 -->
-    <form class="login-form">
-      <input type="text" placeholder="username"/>
-      <input type="password" placeholder="password"/>
+    <form action="logincontroller.php" method="POST">
+      <input type="text" placeholder="username" id="username" name="username" />
+      <input type="password" placeholder="password" id="password" name="password" />
       <button>login</button>
       <p class="message">Not registered? <a href="#">Create an account</a></p>
     </form>
