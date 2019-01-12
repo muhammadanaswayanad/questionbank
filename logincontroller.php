@@ -34,7 +34,7 @@ if($db)
   }
   else if($type=="user")
   {
-   header("location:userhome.php");
+   header("location:studenthome.php");
   }
   
  }
