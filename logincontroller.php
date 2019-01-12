@@ -41,6 +41,20 @@ if($db)
  else
   {
     echo "invalid credentials";
+    ?>
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title></title>
+    </head>
+    <body>
+    <script type="text/javascript">
+      alert("invalid username or password")
+    </script>
+    </body>
+    </html>
+<?php
+// header("location:login.php");
    } 
 
 ?>
