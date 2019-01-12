@@ -39,8 +39,8 @@ if($db)
   
  }
  else
-  {echo "invalid credentials";
+  {
+    echo "invalid credentials";
    } 
-}
 
 ?>
