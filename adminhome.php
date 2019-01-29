@@ -1,7 +1,9 @@
 <?php 
-session_start();
-if ($_SESSION["lid"]) {
-	print("Session variable set lid is");
-	echo SESSION["lid"];
+// session_start();
+if (isset($_SESSION["lid"])) {
+
+}
+else{
+	header("location:login.php");
 }
 ?>
