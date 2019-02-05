@@ -23,7 +23,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Question Bank</a>
+        <a class="navbar-brand" href="#"><H1>UGC Question Bank</H1></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -59,8 +59,8 @@
           <!-- Slide One - Set the background image for this slide in the line below -->
           <div class="carousel-item active" style="background-image: url('img/banner1.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>First Slide</h3>
-              <p>This is a description for the first slide.</p>
+              <h2>Make Sure to Better Life.. </h2>
+              <p><h3>Welcome to the New World of Innovation to Education.....!</h3></p>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
@@ -73,8 +73,8 @@
           <!-- Slide Three - Set the background image for this slide in the line below -->
           <div class="carousel-item" style="background-image: url('img/banner3.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>Third Slide</h3>
-              <p>This is a description for the third slide.</p>
+              <h2>MOCK TEST</h2>
+              <p> <h3>It is a type of online test for students under graduate. This helps the students to attend the online test and analyse themselves on their knowledge.</h3></p>
             </div>
           </div>
         </div>
@@ -92,8 +92,8 @@
     <!-- Page Content -->
     <section class="py-5">
       <div class="container">
-        <h1>Full Slider by Start Bootstrap</h1>
-        <p>The background images for the slider are set directly in the HTML using inline CSS. The rest of the styles for this template are contained within the
+        <h1>Make Sure to Better Life</h1>
+        <p> <h3>Welcome to the New World of Innovation to Education.....!</h3>
           <code>full-slider.css</code>
           file.</p>
       </div>
