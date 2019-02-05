@@ -66,15 +66,15 @@
           <!-- Slide Two - Set the background image for this slide in the line below -->
           <div class="carousel-item" style="background-image: url('img/banner2.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>Second Slide</h3>
-              <p>This is a description for the second slide.</p>
+              
+              <h3><font color="brown">Question Papers</font></h3><br><h3>We provide the opportunity to prepare multiple model question papers at limited time.</h3>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
           <div class="carousel-item" style="background-image: url('img/banner3.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h2>MOCK TEST</h2>
-              <p> <h3>It is a type of online test for students under graduate. This helps the students to attend the online test and analyse themselves on their knowledge.</h3></p>
+              <h2><font color="indigo">MOCK TEST</font></h2>
+              <p><h3>It is a type of online test for students under graduate. This helps the students to attend the online test and analyse themselves on their knowledge.</h3></p>
             </div>
           </div>
         </div>
