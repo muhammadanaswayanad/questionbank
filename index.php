@@ -23,7 +23,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#"><H1>UGC Question Bank</H1></a>
+        <a class="navbar-brand" href="#"><H1><big>UGC Question Bank</big></H1></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -59,8 +59,8 @@
           <!-- Slide One - Set the background image for this slide in the line below -->
           <div class="carousel-item active" style="background-image: url('img/banner1.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h2>Make Sure to Better Life.. </h2>
-              <p><h3>Welcome to the New World of Innovation to Education.....!</h3></p>
+              <h2><font color="00ff00">Success is where preperation and oppertunity meet..!</font></h2>
+              <p><h3>Welcome to the New World of Innovation to Education...</h3></p>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
@@ -92,10 +92,10 @@
     <!-- Page Content -->
     <section class="py-5">
       <div class="container">
-        <h1>Make Sure to Better Life</h1>
-        <p> <h3>Welcome to the New World of Innovation to Education.....!</h3>
-          <code>full-slider.css</code>
-          file.</p>
+        <h1>Prove yourself to yourself not others...</h1>
+        <p> <h4>UGC Questionbank provides the previous year question papers to UG students which helps them to prepare well for their exams.We provide an oppertunity to students to attend a mock test based on their learning to evaluate themselves.The website is helpful to teachers to prepare multiple questionpapers of the same model to reduce the malpractises.</h4>
+          
+          </p>
       </div>
     </section>
 
