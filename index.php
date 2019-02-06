@@ -60,21 +60,21 @@
           <div class="carousel-item active" style="background-image: url('img/banner1.jpg')">
             <div class="carousel-caption d-none d-md-block">
               <h2><font color="00ff00">Success is where preperation and oppertunity meet..!</font></h2>
-              <p><h3>Welcome to the New World of Innovation to Education...</h3></p>
+              <p><h3><font color="yellow">Welcome to the New World of Innovation to Education...</font></h3></p>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
           <div class="carousel-item" style="background-image: url('img/banner2.jpg')">
             <div class="carousel-caption d-none d-md-block">
               
-              <h3><font color="brown">Question Papers</font></h3><br><h3>We provide the opportunity to prepare multiple model question papers at limited time.</h3>
+              <h3><font color="brown">Question Papers</font></h3><br><h3><font color="yellow">We provide the opportunity to prepare multiple model question papers at limited time.</font></h3>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
           <div class="carousel-item" style="background-image: url('img/banner3.jpg')">
             <div class="carousel-caption d-none d-md-block">
               <h2><font color="indigo">MOCK TEST</font></h2>
-              <p><h3>It is a type of online test for students under graduate. This helps the students to attend the online test and analyse themselves on their knowledge.</h3></p>
+              <p><h3><font color="yellow">It is a type of online test for students under graduate. This helps the students to attend the online test and analyse themselves on their knowledge.</font></h3></p>
             </div>
           </div>
         </div>
@@ -92,8 +92,8 @@
     <!-- Page Content -->
     <section class="py-5">
       <div class="container">
-        <h1>Prove yourself to yourself not others...</h1>
-        <p> <h4>UGC Questionbank provides the previous year question papers to UG students which helps them to prepare well for their exams.We provide an oppertunity to students to attend a mock test based on their learning to evaluate themselves.The website is helpful to teachers to prepare multiple questionpapers of the same model to reduce the malpractises.</h4>
+        <h1><b>Prove yourself to yourself not others...</b></h1>
+        <p> <h4><font color="orange">UGC Questionbank provides the previous year question papers to UG students which helps them to prepare well for their exams.We provide an oppertunity to students to attend a mock test based on their learning to evaluate themselves.The website is helpful to teachers to prepare multiple questionpapers of the same model to reduce the malpractises.</font></h4>
           
           </p>
       </div>
