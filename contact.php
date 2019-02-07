@@ -48,8 +48,8 @@
       </div>
     </nav>
 
-    <br><br><br><br><br>
-<p>contact:9961294069<br>9604921699<br><br>email@:rasheednk@gmail.com</p><br><br><br><br>
+    <br><br><br><br><br><br>
+<p><font color="green"><h4>Contact:<br></h4></font><font color="blue"><h5>9961294069<br>9604921699<br><br>email@:rasheednk@gmail.com</h5></font></p><br><br><br><br>
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
