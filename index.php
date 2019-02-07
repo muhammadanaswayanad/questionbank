@@ -93,7 +93,7 @@
     <section class="py-5">
       <div class="container">
         <h1><b>Prove yourself to yourself not others...</b></h1>
-        <p> <h4><font color="orange">UG Questionbank provides the previous year question papers to UG students which helps them to prepare well for their exams.We provide an oppertunity for students to attend a mock test based on their learning to evaluate themselves.The website is helpful to teachers to prepare multiple questionpapers of the same model to reduce the malpractises.</font></h4>
+        <p> <h4><font color="orange">UG Questionbank provides the previous year question papers to UG students which helps them to prepare well for their exams.The student can attend a mock test to know the current status of their knowledge on particular subject.The application helps the teachers to prepare more than one model question papers for internal exams to prevent malpractice.</font></h4>
           
           </p>
       </div>
