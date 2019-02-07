@@ -47,9 +47,10 @@
         </div>
       </div>
     </nav>
-    <br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
 
-    <p> <h4><font color="orange">UG Questionbank provides the previous year question papers to UG students which helps them to prepare well for their exams.We provide an oppertunity for students to attend a mock test based on their learning to evaluate themselves.The website is helpful to teachers to prepare multiple questionpapers of the same model to reduce the malpractises.We offer </font></h4></p>
+    <p> <h4><font color="orange">UG Questionbank is a desktop application.It helps the educational institutions to make their internal exams easier than traditional way.This application helps to make more than one model question papers for internal exams by randomly selecting questions from previously entered questions according to the given input.We just gives the number of questions for each mark then we get more than one model question papers.So we can make different question papers for different students to prevent malpractice.<p><br>The students have the opportunity to download previous year question papers uploaded by staffs.And the students also can attend mock test to know the current status of their knowledge on particular subject. </font></h4></p>
+    <br><br><br><br>
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">

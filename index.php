@@ -67,14 +67,14 @@
           <div class="carousel-item" style="background-image: url('img/banner2.jpg')">
             <div class="carousel-caption d-none d-md-block">
               
-              <h3><font color="brown">Question Papers</font></h3><br><h3><font color="yellow">We provide the opportunity to prepare multiple model question papers at limited time.</font></h3>
+              <h3><font color="brown">Question Papers</font></h3><br><h3><font color="yellow">This application help to make more than one model question papers for internal exams by just giving the number of questions for each mark.The students can download the previous year questions uploaded by staffs.</font></h3>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
           <div class="carousel-item" style="background-image: url('img/banner3.jpg')">
             <div class="carousel-caption d-none d-md-block">
               <h2><font color="indigo">MOCK TEST</font></h2>
-              <p><h3><font color="yellow">It is a type of online test for students under graduate. This helps the students to attend the online test and analyse themselves on their knowledge.</font></h3></p>
+              <p><h3><font color="yellow">The system also provide the mock test for students.It helps the students to know the current status of their knowledge on particular subject.The students can refer previous year university questions by downloading it from our application.</font></h3></p>
             </div>
           </div>
         </div>
