@@ -3,6 +3,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="csscode.css">
+	<link rel="javascript" type="text/javascript" href="jscode.js">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/full-slider.css" rel="stylesheet">
 </head>
 <script>
 
@@ -176,7 +181,8 @@ if(isset($_POST["button"]))
 ?>
 
 <body>
-<form id="form1" name="form1" method="post" action="">
+<form id="form1" name="form1" method="post" action="" >
+<div class="form-group">
   <table width="320" border="1">
     <tr>
       <td width="88">Name</td>
@@ -239,10 +245,19 @@ if(isset($_POST["button"]))
     </tr>
     <tr>
       <td colspan="2"><div align="center">
-        <input type="submit" name="button" id="button" value="Submit" onclick="return val()" />
+      	
       </div></td>
     </tr>
   </table>
+
+
+  <div class="form-group">
+  	<label for="textfield">Name</label>
+   <input type="text" name="textfield" id="textfield" />
+</div>
+
+  <input type="submit" class="btn btn-info" value="Register" onclick="return val()">
+ </div>
 </form>
 
 <?php
