@@ -183,79 +183,49 @@ if(isset($_POST["button"]))
 <body>
 <form id="form1" name="form1" method="post" action="" >
 <div class="form-group">
-  <table width="320" border="1">
-    <tr>
-      <td width="88">Name</td>
-      <td width="216"><label for="textfield"></label>
-      <input type="text" name="textfield" id="textfield" /></td>
-    </tr>
-    <tr>
-      <td>Age</td>
-      <td><label for="textfield2"></label>
-      <input type="text" name="textfield2" id="textfield2" /></td>
-    </tr>
-    <tr>
-      <td>Gender</td>
-      <td><input type="radio" name="radio" id="radio" value="male" checked="checked" />
-        M     
-        <label for="radio">
-          <input type="radio" name="radio" id="radio2" value="female" />
-      F</label></td>
-      
-    </tr>
-    <tr>
-      <td>House name</td>
-      <td><label for="textfield3"></label>
-      <input type="text" name="textfield3" id="textfield3" /></td>
-    </tr>
-    <tr>
-      <td>Place</td>
-      <td><label for="textfield4"></label>
-      <input type="text" name="textfield4" id="textfield4" /></td>
-    </tr>
-    <tr>
-      <td>Post</td>
-      <td><label for="textfield5"></label>
-      <input type="text" name="textfield5" id="textfield5" /></td>
-    </tr>
-    <tr>
-      <td>Pin</td>
-      <td><label for="textfield6"></label>
-      <input type="text" name="textfield6" id="textfield6" /></td>
-    </tr>
-    <tr>
-      <td>Mob</td>
-      <td><label for="textfield7"></label>
-      <input type="text" name="textfield7" id="textfield7" /></td>
-    </tr>
-    <tr>
-      <td>Email</td>
-      <td><label for="textfield8"></label>
-      <input type="text" name="textfield8" id="textfield8" /></td>
-    </tr>
-    <tr>
-      <td>User name</td>
-      <td><label for="textfield9"></label>
-      <input type="text" name="textfield9" id="textfield9" /></td>
-    </tr>
-    <tr>
-      <td>Password</td>
-      <td><label for="textfield10"></label>
-      <input type="text" name="textfield10" id="textfield10" /></td>
-    </tr>
-    <tr>
-      <td colspan="2"><div align="center">
-      	
-      </div></td>
-    </tr>
-  </table>
-
-
-  <div class="form-group">
-  	<label for="textfield">Name</label>
+  	<label for="textfield"><h5><b>Name</b></h5></label>
    <input type="text" name="textfield" id="textfield" />
 </div>
-
+<div class="form-group">
+	<label for="textfield"><h5><b>Age</b></h5></label>
+	<input type="text" name="textfield" id="textfield" />
+</div>
+<div class="form-group">
+	<label for="textfield"><h5><b>Gender</b></h5></label>
+	<input type="text" name="textfield" id="textfield" />
+</div>
+ <div class="form-group">
+  	<label for="textfield"><h5><b>House Name</b></h5></label>
+   <input type="text" name="textfield" id="textfield" />
+</div>
+<div class="form-group">
+	<label for="textfield"><h5><b>place</b></h5></label>
+	<input type="text" name="textfield" id="textfield" />
+</div>
+<div class="form-group">
+	<label for="textfield"><h5><b>post</b></h5></label>
+	<input type="text" name="textfield" id="textfield" />
+</div>
+ <div class="form-group">
+  	<label for="textfield"><h5><b>Pin</b></h5></label>
+   <input type="text" name="textfield" id="textfield" />
+</div>
+<div class="form-group">
+	<label for="textfield"><h5><b>Mob</b></h5></label>
+	<input type="text" name="textfield" id="textfield" />
+</div>
+<div class="form-group">
+	<label for="textfield"><h5><b>Email</b></h5></label>
+	<input type="text" name="textfield" id="textfield" />
+</div> 
+<div class="form-group">
+  	<label for="textfield"><h5><b>Username</b></h5></label>
+   <input type="text" name="textfield" id="textfield" />
+</div>
+<div class="form-group">
+	<label for="textfield"><h5><b>Password</b></h5></label>
+	<input type="text" name="textfield" id="textfield" />
+</div>
   <input type="submit" class="btn btn-info" value="Register" onclick="return val()">
  </div>
 </form>
