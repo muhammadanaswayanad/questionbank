@@ -13,104 +13,104 @@
 
 function val()
 {
-	if(document.getElementById('textfield').value=="")
+	if(document.getElementById('name').value=="")
 	{
 	alert("Enter Name ")
-	document.getElementById('textfield').focus();
+	document.getElementById('name').focus();
 	return false;	
 	}
-	if(/[^a-z\s&'-\.]/gi.test(document.getElementById("textfield").value)){
+	if(/[^a-z\s&'-\.]/gi.test(document.getElementById("name").value)){
 		alert("Special characters  and Numeric values not allowed");
-		document.getElementById("textfield").focus();
+		document.getElementById("name").focus();
 		return false;
 	}
 	
-	if(document.getElementById('textfield2').value=="")
+	if(document.getElementById("age").value=="")
 	{
 	alert("Enter Age")
-	document.getElementById('textfield2').focus();
+	document.getElementById("age").focus();
 	return false;	
 	}
 	
-	if(document.getElementById('radio').value=="")
+	if(document.getElementById("gender").value=="")
 	{
 	alert("Select Gender ")
-	document.getElementById('radio').focus();
+	document.getElementById("gender").focus();
 	return false;	
 	}
 	
-	if(document.getElementById('textfield3').value=="")
+	if(document.getElementById("house name").value=="")
 	{
 	alert("Enter Housename")
-	document.getElementById('textfield3').focus();
+	document.getElementById("house name").focus();
 	return false;	
 	}
 	
-	if(document.getElementById('textfield4').value=="")
+	if(document.getElementById("place").value=="")
 	{
 	alert("Enter Place")
-	document.getElementById('textfield4').focus();
+	document.getElementById("place").focus();
 	return false;	
 	}
-	if(document.getElementById('textfield5').value=="")
+	if(document.getElementById("post").value=="")
 	{
 	alert("Enter Post")
-	document.getElementById('textfield5').focus();
+	document.getElementById("post").focus();
 	return false;	
 	}
-	if(document.getElementById('textfield6').value=="")
+	if(document.getElementById("pin").value=="")
 	{
 	alert("Enter Pin")
-	document.getElementById('textfield6').focus();
+	document.getElementById("pin").focus();
 	return false;	
 	}
-	if(document.getElementById("textfield6").value.length!=6)
+	if(document.getElementById("pin").value.length!=6)
 
      {
 
                 alert("Your Postal code seems incorrect!");
 
-               document.getElementById("textfield6").focus();
+               document.getElementById("pin").focus();
 
                return false;
 
      }
-	if(document.getElementById('textfield7').value=="")
+	if(document.getElementById("mob").value=="")
 	{
 	alert("Enter Mob")
-	document.getElementById('textfield7').focus();
+	document.getElementById("mob").focus();
 	return false;	
 	}
-	if(isNaN(document.getElementById("textfield7").value))
+	if(isNaN(document.getElementById("mob").value))
 	
 	{
 		 alert(" Characters Not Allowed!");
 
-     	 document.getElementById("textfield7").focus();
+     	 document.getElementById("mob").focus();
 
      	 return false;
 	}
-	 if(document.getElementById("textfield7").value.length<10)
+	 if(document.getElementById("mob").value.length<10)
 
     {
 
      alert(" Enter correct Phone Number!");
 
-     document.getElementById("textfield7").focus();
+     document.getElementById("mob").focus();
 
      return false;
 
     }
 	
-	if(document.getElementById('textfield8').value=="")
+	if(document.getElementById("email").value=="")
 	{
 	alert("Enter Email")
-	document.getElementById('textfield8').focus();
+	document.getElementById("email").focus();
 	return false;	
 	}
 	var emailPat =/^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
 
-     var emailid=document.getElementById("textfield8").value;
+     var emailid=document.getElementById("email").value;
 
      var matchArray = emailid.match(emailPat);
 
@@ -120,23 +120,23 @@ function val()
 
                alert("Your Email ID seems incorrect. Enter Correct Email ID.");
 
-               document.getElementById("textfield8").focus();
+               document.getElementById("Email").focus();
 
                return false;
 
     }
 	
     
-	if(document.getElementById('textfield9').value=="")
+	if(document.getElementById("username").value=="")
 	{
-	alert("Enter Usernmae")
-	document.getElementById('textfield9').focus();
+	alert("Enter Username")
+	document.getElementById("username").focus();
 	return false;	
 	}
-	if(document.getElementById('textfield10').value=="")
+	if(document.getElementById("password").value=="")
 	{
-	alert("Enter {Password")
-	document.getElementById('textfield10').focus();
+	alert("Enter Password")
+	document.getElementById("password").focus();
 	return false;	
 	}
 	
@@ -184,47 +184,50 @@ if(isset($_POST["button"]))
 <form id="form1" name="form1" method="post" action="" >
 <div class="form-group">
   	<label for="textfield"><h5><b>Name</b></h5></label>
-   <input type="text" name="textfield" id="textfield" />
+   <input type="text" name="name" id="name" />
 </div>
 <div class="form-group">
 	<label for="textfield"><h5><b>Age</b></h5></label>
-	<input type="text" name="textfield" id="textfield" />
+	<input type="text" name="age" id="age" />
 </div>
 <div class="form-group">
-	<label for="textfield"><h5><b>Gender</b></h5></label>
-	<input type="text" name="textfield" id="textfield" />
+	<label for="sel1">Gender:</label>
+      <select class="form-control" id="gender">
+        <option>Male</option>
+        <option>Female</option>
+      </select>
 </div>
  <div class="form-group">
   	<label for="textfield"><h5><b>House Name</b></h5></label>
-   <input type="text" name="textfield" id="textfield" />
+   <input type="text" name="house name" id="house name" />
 </div>
 <div class="form-group">
 	<label for="textfield"><h5><b>place</b></h5></label>
-	<input type="text" name="textfield" id="textfield" />
+	<input type="text" name="place" id="place" />
 </div>
 <div class="form-group">
 	<label for="textfield"><h5><b>post</b></h5></label>
-	<input type="text" name="textfield" id="textfield" />
+	<input type="text" name="post" id="post" />
 </div>
  <div class="form-group">
   	<label for="textfield"><h5><b>Pin</b></h5></label>
-   <input type="text" name="textfield" id="textfield" />
+   <input type="text" name="pin" id="pin" />
 </div>
 <div class="form-group">
 	<label for="textfield"><h5><b>Mob</b></h5></label>
-	<input type="text" name="textfield" id="textfield" />
+	<input type="text" name="mob" id="mob" />
 </div>
 <div class="form-group">
 	<label for="textfield"><h5><b>Email</b></h5></label>
-	<input type="text" name="textfield" id="textfield" />
+	<input type="text" name="email" id="email" />
 </div> 
 <div class="form-group">
   	<label for="textfield"><h5><b>Username</b></h5></label>
-   <input type="text" name="textfield" id="textfield" />
+   <input type="text" name="username" id="username" />
 </div>
 <div class="form-group">
 	<label for="textfield"><h5><b>Password</b></h5></label>
-	<input type="text" name="textfield" id="textfield" />
+	<input type="text" name="password" id="password" />
 </div>
   <input type="submit" class="btn btn-info" value="Register" onclick="return val()">
  </div>
