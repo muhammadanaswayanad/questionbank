@@ -13,3 +13,6 @@
   -o-background-size: cover;
   background-size: cover;
 }
+.text-shadow{
+	text-shadow: black 0 -2px;
+}

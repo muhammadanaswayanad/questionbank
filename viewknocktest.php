@@ -131,7 +131,6 @@ include("userheader.php");
 	  $crs = $_POST["select2"];
 	  $sem = $_POST["select3"];
 	  $sub = $_POST["select4"];
-	   
 	  $_SESSION["cnt"] = 0;
 	  $_SESSION["mark"] = 0; 
 	  

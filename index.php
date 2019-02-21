@@ -55,19 +55,19 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner" role="listbox">
+        <div class="carousel-inner text-shadow" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
           <div class="carousel-item active" style="background-image: url('img/banner1.jpg')">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block text-shadow">
               <h2><font color="00ff00">Success is where preperation and oppertunity meet..!</font></h2>
               <p><h3><font color="yellow">Welcome to the New World of Innovation to Education...</font></h3></p>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
           <div class="carousel-item" style="background-image: url('img/banner2.jpg')">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block text-shadow">
               
-              <h3><font color="brown">Question Papers</font></h3><br><h3><font color="yellow">This application help to make more than one model question papers for internal exams by just giving the number of questions for each mark.The students can download the previous year questions uploaded by staffs.</font></h3>
+              <h3><font color="dark brown">Question Papers</font></h3><br><h3><font color="white">This application help to make more than one model question papers for internal exams by just giving the number of questions for each mark.The students can download the previous year questions uploaded by staffs.</font></h3>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->

@@ -3,7 +3,7 @@
 $db=mysql_connect("localhost","root","");
 if($db)
 {
- mysql_select_db("questionbank",$db);
+ mysql_select_db("question_bank",$db);
  
  }
  else {

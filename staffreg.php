@@ -215,11 +215,11 @@ if(isset($_POST["button"]))
 </div>
 <div class="form-group">
 	<label for="textfield"><h5><b>Mob</b></h5></label>
-	<input type="text" name="mob" id="mob" />
+	<input type="tel" name="mob" id="mob" />
 </div>
 <div class="form-group">
 	<label for="textfield"><h5><b>Email</b></h5></label>
-	<input type="text" name="email" id="email" />
+	<input type="email" name="email" id="email" />
 </div> 
 <div class="form-group">
   	<label for="textfield"><h5><b>Username</b></h5></label>
@@ -227,7 +227,7 @@ if(isset($_POST["button"]))
 </div>
 <div class="form-group">
 	<label for="textfield"><h5><b>Password</b></h5></label>
-	<input type="text" name="password" id="password" />
+	<input type="password" name="password" id="password" />
 </div>
   <input type="submit" class="btn btn-info" value="Register" onclick="return val()">
  </div>

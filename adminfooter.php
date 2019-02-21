@@ -36,11 +36,9 @@
         <h2><span>Contact</span> Us</h2>
         <p>THIS MADE BY THE BELOW TEAM </p>
         <p class="contact_info"> <span>Team</span> <br />
-          <span>ASIF</span> 9567902361 <br />
-          <span>ANSAR</span> 9747413915<br />
-          <span>ARYA</span> <br />
-          <span>NAJEERA</span><br/>
-          <span>ARSHAD</span><br/>
+          <span>SONASUNNY</span> 9567902361 <br />
+          <span>FEMINA</span> 9747413915<br />
+          <span>FEBINAS</span> <br />
       </div>
       <div class="clr"></div>
     </div>
@@ -48,7 +46,7 @@
   <div class="footer">
     <div class="footer_resize">
       
-      <p class="rf">Design by Team <a href="http://www.dreamtemplate.com/">Quest ?</a></p>
+      <p class="rf">Design by Team <a href="http://www.dreamtemplate.com/"></a></p>
       <div style="clear:both;"></div>
     </div>
   </div>

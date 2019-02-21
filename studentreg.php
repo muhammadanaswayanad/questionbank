@@ -229,10 +229,10 @@ if(isset($_POST["button"]))
     </tr>
     <tr>
       <td>Gender</td>
-      <td><input type="radio" name="radio" id="radio" value="male" checked="checked" />
-      <label for="radio"> M 
+      <td><input type="radio" name="radio" id="radio" value="male" checked="checked" />M
         <input type="radio" name="radio" id="radio" value="female" />
-      F</label></td>
+      F
+  </td>
     </tr>
     <tr>
       <td>House Name</td>
@@ -257,12 +257,12 @@ if(isset($_POST["button"]))
     <tr>
       <td>Mob</td>
       <td><label for="textfield7"></label>
-      <input type="text" name="textfield7" id="textfield7" /></td>
+      <input type="tel" name="textfield7" id="textfield7" /></td>
     </tr>
     <tr>
       <td>Email</td>
       <td><label for="textfield8"></label>
-      <input type="text" name="textfield8" id="textfield8" /></td>
+      <input type="email" name="textfield8" id="textfield8" /></td>
     </tr>
      <tr>
       <td width="169">Department</td>
@@ -303,7 +303,7 @@ if(isset($_POST["button"]))
     <tr>
       <td>Password</td>
       <td><label for="textfield13"></label>
-      <input type="text" name="textfield13" id="textfield13" /></td>
+      <input type="password" name="textfield13" id="textfield13" /></td>
     </tr>
     <tr>
       <td colspan="2"><div align="center">
