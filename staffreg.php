@@ -8,6 +8,7 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="css/full-slider.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 </head>
 <script>
 
@@ -184,7 +185,7 @@ if(isset($_POST["button"]))
 <form id="form1" name="form1" method="post" action="" >
 <div class="form-group">
   	<label for="name">Name</label>
-   <input type="text" name="name" id="name" />
+   <input type="text" name="name" id="name" placeholder="Enter name of staff" />
 </div>
 <div class="form-group">
 	<label for="textfield"><h5><b>Age</b></h5></label>
