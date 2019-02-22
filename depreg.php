@@ -38,7 +38,7 @@ if(isset($_POST["button"]))
 ?>
 
 <form id="form1" name="form1" method="post" action="">
-      Department
+      Department<br>
       <label for="textfield"></label>
       <input type="text" class="form-control" name="textfield" id="textfield" placeholder="Enter department name" />
       <div align="center">
