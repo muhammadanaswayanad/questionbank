@@ -183,7 +183,7 @@ if(isset($_POST["button"]))
 <body>
 <form id="form1" name="form1" method="post" action="" >
 <div class="form-group">
-  	<label for="textfield"><h5><b>Name</b></h5></label>
+  	<label for="name">Name</label>
    <input type="text" name="name" id="name" />
 </div>
 <div class="form-group">
@@ -191,7 +191,7 @@ if(isset($_POST["button"]))
 	<input type="text" name="age" id="age" />
 </div>
 <div class="form-group">
-	<label for="sel1">Gender:</label>
+	<label for="gender">Gender:</label>
       <select class="form-control" id="gender">
         <option>Male</option>
         <option>Female</option>
