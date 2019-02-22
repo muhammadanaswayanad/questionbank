@@ -1,8 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
+<title>Add Department</title>
 </head>
 <script>
 function val()
@@ -37,15 +38,15 @@ if(isset($_POST["button"]))
 ?>
 
 <form id="form1" name="form1" method="post" action="">
-  <table width="200" border="1">
+  <table width="200" border="0">
     <tr>
       <td>Department</td>
       <td><label for="textfield"></label>
-      <input type="text" name="textfield" id="textfield" /></td>
+      <input type="text" class="form-control" name="textfield" id="textfield" /></td>
     </tr>
     <tr>
       <td colspan="2"><div align="center">
-        <input type="submit" name="button" id="button" value="Submit" onclick="return val()" />
+        <input type="submit" name="button" class="btn btn-primary" id="button" value="Submit" onclick="return val()" />
       </div></td>
     </tr>
   </table>

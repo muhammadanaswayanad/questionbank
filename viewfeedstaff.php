@@ -33,6 +33,7 @@ if(mysql_num_rows($res) > 0)
 </form>
 <?php
 }
+}
 ?>
 </body>
 </html>
