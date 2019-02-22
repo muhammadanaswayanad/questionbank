@@ -38,18 +38,13 @@ if(isset($_POST["button"]))
 ?>
 
 <form id="form1" name="form1" method="post" action="">
-  <table width="200" border="0">
-    <tr>
-      <td>Department</td>
-      <td><label for="textfield"></label>
-      <input type="text" class="form-control" name="textfield" id="textfield" /></td>
-    </tr>
-    <tr>
-      <td colspan="2"><div align="center">
+      Department
+      <label for="textfield"></label>
+      <input type="text" class="form-control" name="textfield" id="textfield" placeholder="Enter department name" />
+      <div align="center">
         <input type="submit" name="button" class="btn btn-primary" id="button" value="Submit" onclick="return val()" />
-      </div></td>
-    </tr>
-  </table>
+      </div>
+    
 </form>
 <?php
 include("adminfooter.php")
