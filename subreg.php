@@ -127,7 +127,7 @@ if(isset($_POST["button"]))
       <tr>
         <td>Semester</td>
         <td><label for="select3"></label>
-          <select name="select3" id="select3">
+          <select name="select3" id="select3" class=form-control>
             <option value="">Select</option>
             <option>1</option>
             <option>2</option>
@@ -140,12 +140,12 @@ if(isset($_POST["button"]))
       <tr>
         <td>Subject</td>
         <td><label for="textfield2"></label>
-          <input type="text" name="textfield" id="textfield2" /></td>
+          <input type="text" class="form-control" name="textfield" id="textfield2" /></td>
       </tr>
       <tr>
         <td colspan="2">
           <div align="center">
-            <input type="submit" name="button" id="button" value="Submit" onclick="return val()" />
+            <input type="submit" class="btn btn-info" name="button" id="button" value="Submit" onclick="return val()" />
           </div>
         </td>
       </tr>

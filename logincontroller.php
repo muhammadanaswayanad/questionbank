@@ -50,7 +50,7 @@ if($db)
     <body>
     <script type="text/javascript">
       alert("invalid username or password")
-      window.location = 'http://localhost/questionbank/login.php';
+      window.location = 'login.php';
     </script>
     </body>
     </html>

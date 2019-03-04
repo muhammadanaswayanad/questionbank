@@ -61,10 +61,10 @@ if($db)
     </form>
 -->
     <form action="logincontroller.php" method="POST">
-      <input type="text" placeholder="username" id="username" name="username" />
-      <input type="password" placeholder="password" id="password" name="password" />
+      <input type="text" placeholder="Username" id="username" name="username" />
+      <input type="password" placeholder="Password" id="password" name="password" />
       <button>login</button>
-      <p class="message">Not registered? <a href="#">Create an account</a></p>
+      <!-- <p class="message">Not registered? <a href="#">Create an account</a></p> -->
     </form>
   </div>
 </div>

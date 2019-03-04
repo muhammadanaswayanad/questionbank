@@ -1,18 +1,19 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
-<!-- <link rel="stylesheet" type="text/css" href="csscode.css"> -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Untitled Document</title>
+	<!-- <link rel="stylesheet" type="text/css" href="csscode.css"> -->
 	<link rel="javascript" type="text/javascript" href="jscode.js">
-  <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
-  <!-- Custom styles for this template -->
-  <link href="css/full-slider.css" rel="stylesheet">
+	<!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+	<!-- Custom styles for this template -->
+	<link href="css/full-slider.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 </head>
 <script>
 
-function val()
+	function val()
 {
 	if(document.getElementById('name').value=="")
 	{
@@ -182,60 +183,79 @@ if(isset($_POST["button"]))
 ?>
 
 <body>
-<form id="form1" name="form1" method="post" action="" >
-<div class="form-group">
-  	<label for="name">Name</label>
-   <input type="text" name="name" id="name" placeholder="Enter name of staff" />
-</div>
-<div class="form-group">
-	<label for="textfield"><h5><b>Age</b></h5></label>
-	<input type="text" name="age" id="age" />
-</div>
-<div class="form-group">
-	<label for="gender">Gender:</label>
-      <select class="form-control" id="gender">
-        <option>Male</option>
-        <option>Female</option>
-      </select>
-</div>
- <div class="form-group">
-  	<label for="textfield"><h5><b>House Name</b></h5></label>
-   <input type="text" name="house name" id="house name" />
-</div>
-<div class="form-group">
-	<label for="textfield"><h5><b>place</b></h5></label>
-	<input type="text" name="place" id="place" />
-</div>
-<div class="form-group">
-	<label for="textfield"><h5><b>post</b></h5></label>
-	<input type="text" name="post" id="post" />
-</div>
- <div class="form-group">
-  	<label for="textfield"><h5><b>Pin</b></h5></label>
-   <input type="text" name="pin" id="pin" />
-</div>
-<div class="form-group">
-	<label for="textfield"><h5><b>Mob</b></h5></label>
-	<input type="tel" name="mob" id="mob" />
-</div>
-<div class="form-group">
-	<label for="textfield"><h5><b>Email</b></h5></label>
-	<input type="email" name="email" id="email" />
-</div> 
-<div class="form-group">
-  	<label for="textfield"><h5><b>Username</b></h5></label>
-   <input type="text" name="username" id="username" />
-</div>
-<div class="form-group">
-	<label for="textfield"><h5><b>Password</b></h5></label>
-	<input type="password" name="password" id="password" />
-</div>
-  <input type="submit" class="btn btn-info" value="Register" onclick="return val()">
- </div>
-</form>
+	<form id="form1" name="form1" method="post" action="">
+		<div class="form-group">
+			<label for="name">Name</label>
+			<input type="text" class="form-control" name="name" id="name" placeholder="Enter name of staff" />
+		</div>
+		<div class="form-group">
+			<label for="textfield">
+			Age
+			</label>
+			<input type="text" class="form-control" name="age" id="age" />
+		</div>
+		<div class="form-group">
+			<label for="gender">Gender:</label>
+			<select class="form-control" class="form-control" id="gender">
+				<option>Male</option>
+				<option>Female</option>
+			</select>
+		</div>
+		<div class="form-group">
+			<label for="housename">
+				House Name
+			</label>
+			<input type="text" class="form-control" name="housename" id="housename" />
+		</div>
+		<div class="form-group">
+			<label for="place">
+				Place
+			</label>
+			<input type="text" class="form-control" name="place" id="place" />
+		</div>
+		<div class="form-group">
+			<label for="post">
+				Post
+			</label>
+			<input type="text" class="form-control" name="post" id="post" />
+		</div>
+		<div class="form-group">
+			<label for="pin">
+				Pin
+			</label>
+			<input type="text" class="form-control" name="pin" id="pin" />
+		</div>
+		<div class="form-group">
+			<label for="mob">
+				Mob
+			</label>
+			<input type="tel" class="form-control" name="mob" id="mob" />
+		</div>
+		<div class="form-group">
+			<label for="email">
+				Email
+			</label>
+			<input type="email" class="form-control" name="email" id="email" />
+		</div>
+		<div class="form-group">
+			<label for="username">
+				Username
+			</label>
+			<input type="text" class="form-control" name="username" id="username" />
+		</div>
+		<div class="form-group">
+			<label for="password">
+				Password
+			</label>
+			<input type="password" class="form-control" name="password" id="password" />
+		</div>
+		<input type="submit" class="btn btn-info" value="Register" onclick="return val()">
+		</div>
+	</form>
 
-<?php
+	<?php
 include("adminfooter.php")
 ?>
 </body>
+
 </html>
