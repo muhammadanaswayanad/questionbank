@@ -1,40 +1,44 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <title>Register Subject</title>
 </head>
 <script language="javascript" type="text/javascript">
-            var xmlHttp;
-            function showname(to){
-                if (typeof XMLHttpRequest != "undefined"){
-                xmlHttp= new XMLHttpRequest();
-                }
-                else if (window.ActiveXObject){
-                    xmlHttp= new ActiveXObject("Microsoft.XMLHTTP");
-                }
-                if (xmlHttp==null){
-                    alert("Browser does not support XMLHTTP Request")
-                    return;
-                }
-                var url="sp.php";
-                url +="?name=" +to
-                xmlHttp.onreadystatechange = stateChange;
-                xmlHttp.open("GET", url, true);
-                xmlHttp.send(null);
-            }
-            
-            
-            function stateChange(){
-                if(xmlHttp.readyState==4 || xmlHttp.readyState=="complete"){
-                //    alert(xmlHttp.responseText);
-                    document.getElementById("select2").innerHTML=xmlHttp.responseText   
-                }
-            }
+  var xmlHttp;
+
+  function showname(to) {
+    if (typeof XMLHttpRequest != "undefined") {
+      xmlHttp = new XMLHttpRequest();
+    } else if (window.ActiveXObject) {
+      xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    if (xmlHttp == null) {
+      alert("Browser does not support XMLHTTP Request")
+      return;
+    }
+    var url = "sp.php";
+    url += "?name=" + to
+    xmlHttp.onreadystatechange = stateChange;
+    xmlHttp.open("GET", url, true);
+    xmlHttp.send(null);
+  }
+
+
+  function stateChange() {
+    if (xmlHttp.readyState == 4 || xmlHttp.readyState == "complete") {
+      //    alert(xmlHttp.responseText);
+      document.getElementById("select2").innerHTML = xmlHttp.responseText
+    }
+  }
 </script>
 <script>
 
-function val()
+  function val()
 {
 	if(document.getElementById('select').value=="")
 	{
@@ -70,7 +74,7 @@ function val()
 
 <body>
 
-<?php
+  <?php
 include("adminheader.php");
 include("connect.php");
 
@@ -90,15 +94,15 @@ if(isset($_POST["button"]))
 
 
 ?>
-<form id="form1" name="form1" method="post" action="">
-  <table width="319" border="1">
-    <tr>
-      <td width="131">Department</td>
-      <td width="172"><label for="textfield"></label>
-        <label for="select"></label>
-      <select name="select" id="select" onchange="showname(this.value)">
-      <option value="">Select</option>
-        <?php 
+  <form id="form1" name="form1" method="post" action="">
+    <table width="319" border="1">
+      <tr>
+        <td width="131">Department</td>
+        <td width="172"><label for="textfield"></label>
+          <label for="select"></label>
+          <select class="form-control" name="select" id="select" onchange="showname(this.value)">
+            <option value="">Select</option>
+            <?php 
 		$r=mysql_query("select id, department from department");
 		if(mysql_num_rows($r)>0)
 		{
@@ -106,46 +110,50 @@ if(isset($_POST["button"]))
 			{
 		
 		?>
-         <option value="<?php  echo $r1[0] ?>"><?php  echo $r1[1] ?>
-        </option>
-        
-        <?php }}?>
-      </select></td>
-    </tr>
-    <tr>
-      <td>Course</td>
-      <td><label for="select2"></label>
-        <select name="select2" id="select2">
-        <option value="">Select</option>
-      </select></td>
-    </tr>
-    <tr>
-      <td>Semester</td>
-      <td><label for="select3"></label>
-        <select name="select3" id="select3">
-        <option value="">Select</option>
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-        <option>6</option>
-      </select></td>
-    </tr>
-    <tr>
-      <td>Subject</td>
-      <td><label for="textfield2"></label>
-      <input type="text" name="textfield" id="textfield2" /></td>
-    </tr>
-    <tr>
-      <td colspan="2"><div align="center">
-        <input type="submit" name="button" id="button" value="Submit" onclick="return val()" />
-      </div></td>
-    </tr>
-  </table>
-</form>
-<?php
+            <option value="<?php  echo $r1[0] ?>">
+              <?php  echo $r1[1] ?>
+            </option>
+
+            <?php }}?>
+          </select></td>
+      </tr>
+      <tr>
+        <td>Course</td>
+        <td><label for="select2"></label>
+          <select name="select2" id="select2" class="form-control">
+            <option value="">Select</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td>Semester</td>
+        <td><label for="select3"></label>
+          <select name="select3" id="select3">
+            <option value="">Select</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td>Subject</td>
+        <td><label for="textfield2"></label>
+          <input type="text" name="textfield" id="textfield2" /></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <div align="center">
+            <input type="submit" name="button" id="button" value="Submit" onclick="return val()" />
+          </div>
+        </td>
+      </tr>
+    </table>
+  </form>
+  <?php
 include("adminfooter.php")
 ?>
 </body>
+
 </html>
