@@ -1,3 +1,12 @@
+<?php 
+ session_start();
+if (isset($_SESSION["lid"])) {
+  echo "";
+}
+else{
+  header("location:login.php");
+}
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -134,7 +143,7 @@ function val()
 
 <body>
 <?php
-include("connect.php");
+require("connect.php");
 include("staffheader.php");
 
 if(isset($_POST["button"]))
@@ -148,7 +157,8 @@ if(isset($_POST["button"]))
 	    $m2=$_POST["textfield4"];
 		 $m3=$_POST["textfield5"];
 		  $m4=$_POST["textfield6"];
-		  session_start();
+      //session_destroy();
+		  //session_start();
 		  $_SESSION['dep']=$dept;
 		   $_SESSION['crs']=$crs;
 		    $_SESSION['sem']=$sem;
@@ -160,7 +170,7 @@ if(isset($_POST["button"]))
 				  $_SESSION['m3']=$m3;
 				   $_SESSION['m4']=$m4;
 		  
-		  header("location:tesst.php");
+		  //header("Location:tesst.php");
 }
 
 

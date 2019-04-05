@@ -1,3 +1,12 @@
+<?php 
+ session_start();
+if (isset($_SESSION["lid"])) {
+  echo "";
+}
+else{
+  header("location:login.php");
+}
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
@@ -86,7 +95,7 @@ if(isset($_POST["button"]))
 	 $sub=$_POST["textfield"];
 	
 	mysql_query("insert into subject values(null,'$dept','$crs',' $sem','$sub')");
-	header("location:adminhome.php");
+	// header("Location:adminhome.php");
 	
 	
 }
