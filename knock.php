@@ -1,12 +1,4 @@
-<?php 
- session_start();
-if (isset($_SESSION["lid"])) {
-  echo "";
-}
-else{
-  header("location:login.php");
-}
-?>
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
@@ -161,7 +153,7 @@ if(isset($_POST["button"]))
 	  
 	 
 	 mysql_query("insert into knock values(null,'$dept','$crs',' $sem','$sub','$ques','$op1','$op2','$op3','$op4','$ans')");
-	 header("location:staffhome.php");
+	 // header("location:staffhome.php");
 }
 ?>
 <form id="form1" name="form1" method="post" action="">

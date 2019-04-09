@@ -1,12 +1,4 @@
-<?php 
- session_start();
-if (isset($_SESSION["lid"])) {
-  echo "";
-}
-else{
-  header("location:login.php");
-}
-?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -147,8 +139,11 @@ include("userheader.php");
 	  $_SESSION["crs"] = $crs;
 	  $_SESSION["sem"] = $sem;
 	  $_SESSION["sub"] = $sub;
-	  
-	  header("location:exam.php");
+	  echo '
+      <script type="text/javascript">
+        window.location.href = "exam.php";
+      </script>
+    ';
   }
 ?>
 </form>
