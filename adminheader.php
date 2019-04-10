@@ -18,7 +18,7 @@
     <div class="header">
       <div class="header_resize">
         <div class="logo">
-          <h1><a href="#">QUEST<span> ?</span> <small> Let Us Quest !</small></a></h1>
+          <h1><a href="#">UG Question Bank<span> </span> <small> Let Us Quest !</small></a></h1>
         </div>
         <div class="searchform">
           <form id="formsearch" name="formsearch" method="post" action="#">
