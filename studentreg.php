@@ -239,9 +239,12 @@ if(isset($_POST["button"]))
     </tr>
     <tr>
       <td>Gender</td>
-      <td><input type="radio" name="radio" id="radio" value="male" checked="checked" />M
-        <input type="radio" name="radio" id="radio" value="female" />
-      F
+      <td>
+      	<label for="select2"></label>
+        <select name="select2" id="select2">
+         <option value="Male">Male</option>
+         <option value="Female">Female</option>
+      	</select>
   </td>
     </tr>
     <tr>
